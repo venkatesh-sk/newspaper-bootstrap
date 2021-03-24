@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 10px;
+    font-family: 'News Cycle', sans-serif;
+}
+.dollar-sit{
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    font-size: 13px;
+    line-height: 2;
+    font-weight: bold;
+}
+.title{
+    width: 100%;
+    border: 1px solid black;
+    border-right: white;
+    border-left: white;
+    margin:10px 5px;
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 0;
+}
+.newsdaily{
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 0;
+}
+.hfourpic{
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    font-size:0.2rem;
+    width: 100px;
+}
+.page{
+    position: absolute;
+    bottom: 150px;
+    right: 10px;
+    width: 70px;
+    font-size: 25px;
+    background-color: #92967d;
+    border-radius: 75%;
+    height: 75px;
+    text-align: center;
+    color:white;
+}
+.box{
+    background-color: #92967d;
+    width: 416px;
+    height:200px;
+    padding:10px;
+    margin: 10px;
+}
+.second-row{
+    margin-top: 10px;
+}
+.day01{
+    border: 2px solid orangered;
+    color:white;
+    display: inline;
+    background-color: orangered;
+    width: 200px;
+}
+#innercontent{
+    color: brown;
+    border:2px solid black;
+    
+    text-align: center;
+    border-right: white;
+    border-left: white;
+
+}
+.scntnt{
+    position: absolute;
+    border: 2px solid orangered;
+    color:white;
+    display: inline;
+    background-color: orangered;
+    width: 200px;
+    top: 0;
+    left: 20px;
+
+}
+.footer{
+   border: 2px solid black;
+   border-right: white;
+   border-left: white;
+   border-bottom: white;
+    margin: 10px;
+}
+.footer-dollar-sit{
+    position:absolute;
+    right: 25px;
+   top: 1435px;
+}
