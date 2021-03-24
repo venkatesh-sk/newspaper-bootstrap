@@ -1,16 +1,20 @@
 *{
-    margin: 0px;
+    margin:  0px;
     padding: 0px;
 }
 body{
-    font-size: 10px;
+    font-size: 20px;
     font-family: 'News Cycle', sans-serif;
+}
+.leftcorner{
+    margin-left: 10px;
+    padding-left: 20px;
 }
 .dollar-sit{
     position: absolute;
     right: 30px;
-    top: 5px;
-    font-size: 13px;
+    top: 0px;
+    font-size: 20px;
     line-height: 2;
     font-weight: bold;
 }
@@ -24,21 +28,14 @@ body{
     font-size: 2vw;
     margin-bottom: 0;
 }
-.newsdaily{
-    font-size: 8vw;
+#box-bgm{
+    margin-top: 10px;
+    background-color: #929292;
     text-align: center;
-    margin-top: 0;
-}
-.hfourpic{
-    position: absolute;
-    bottom: 50px;
-    right: 10px;
-    font-size:0.2rem;
-    width: 100px;
 }
 .page{
     position: absolute;
-    bottom: 150px;
+    bottom: 100px;
     right: 10px;
     width: 70px;
     font-size: 25px;
@@ -48,52 +45,73 @@ body{
     text-align: center;
     color:white;
 }
-.box{
-    background-color: #92967d;
-    width: 416px;
-    height:200px;
-    padding:10px;
-    margin: 10px;
-}
-.second-row{
-    margin-top: 10px;
-}
-.day01{
-    border: 2px solid orangered;
-    color:white;
-    display: inline;
-    background-color: orangered;
+
+.lorem{
+    position: absolute;
+    bottom: 0;
+    right: 0;
     width: 200px;
+    font-size: 10px;
+
 }
-#innercontent{
-    color: brown;
-    border:2px solid black;
-    
+.duis{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 30px 10px;
+    padding: 10px 10px;
+}
+.boxx{
+    width: 100%;
+    height:250px;
+    background-color: #929292;
+    margin-bottom: 50px;
+}
+.redbox2{
+    background-color: orangered;
+    display: inline-block;
+    line-height: 2;
+
+}
+.redbox{
+    border: 2px solid orangered;
+    background-color: orangered;
+    color: white;
+    display: inline;
+    position: absolute;
+    top: -8px;
+    left:-5px;
+}
+.line{
+    margin: 10px;
+    width:100%;
+    height:1px;
+    background-color: black;
+}
+.sapiente{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.fourthrow{
+    margin: 10px 10px;
+}
+.box-lorem{
     text-align: center;
+    border: 2px solid orangered;
+    line-height: 2;
     border-right: white;
     border-left: white;
-
-}
-.scntnt{
-    position: absolute;
-    border: 2px solid orangered;
-    color:white;
-    display: inline;
-    background-color: orangered;
-    width: 200px;
-    top: 0;
-    left: 20px;
-
 }
 .footer{
-   border: 2px solid black;
-   border-right: white;
-   border-left: white;
-   border-bottom: white;
-    margin: 10px;
-}
-.footer-dollar-sit{
-    position:absolute;
-    right: 25px;
-   top: 1435px;
-}
+    border: 2px solid black;
+    border-right: white;
+    border-left: white;
+    border-bottom: white;
+     margin: 10px;
+ }
+ .footer-dollar-sit{
+     position: absolute;
+     right: 60px;
+    top: 1770px;
+
+ }
